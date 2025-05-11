@@ -54,7 +54,4 @@ services:
 
 networks:
   app-net:
-    driver: bridge
-
-
-
+    driver: bridgeS

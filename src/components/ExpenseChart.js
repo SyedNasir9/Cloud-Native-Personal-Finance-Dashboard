@@ -21,10 +21,10 @@ const ExpenseChart = ({ expenses, budget }) => {
   };
   
   const options = {
-    responsive: true, 
+    responsive: true,
     plugins: {
       legend: {
-        position: 'top', 
+        position: 'top',
       },
     },
   };
@@ -32,9 +32,10 @@ const ExpenseChart = ({ expenses, budget }) => {
   return (
     <div className="chart-container">
       <h3>Expense Chart</h3>
-      <Pie data={data} options={options} width={200} height={200} /> {/* Adjust width and height */}
+      <Pie data={data} options={options} width={200} height={200} />
     </div>
   );
 };
 
 export default ExpenseChart;
+
